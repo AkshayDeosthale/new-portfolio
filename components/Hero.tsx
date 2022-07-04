@@ -15,7 +15,7 @@ const Variant = {
 const Hera = () => {
   return (
     <motion.div
-      className=" w-full mt-20 md:mt-0 md:w-3/5 flex flex-col md:p-6 space-y-3 justify-center items-center text-orange-500 shadow-2xl backdrop-blur-lg cursor-default group"
+      className=" w-full mt-20 md:mt-0 md:w-3/5 flex flex-col md:p-6 space-y-3 justify-center items-center text-orange-500 shadow-2xl backdrop-blur-lg cursor-default group md:rounded-3xl"
       variants={Variant}
       animate={{ opacity: 1 }}
       initial={{ opacity: 0 }}
@@ -28,9 +28,9 @@ const Hera = () => {
         },
       }}
     >
-      <motion.div className="  w-full h-full flex justify-around md:justify-center items-center space-y-3  ">
+      <motion.div className="  w-full h-full flex justify-evenly md:justify-center items-center space-y-3 md:space-x-10 ">
         <motion.div
-          className="rounded-full w-28 h-28  md:mx-auto   bg-gradient-to-r p-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
+          className="rounded-full w-28 h-28  bg-gradient-to-r p-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
           animate={{ rotate: 360 }}
           transition={{ duration: 2, repeat: Infinity }}
         >

@@ -18,20 +18,20 @@ const Home: NextPage = () => {
       </div>
 
       <div
-        className=" h-screen flex flex-col space-y-6  md:justify-center md:items-center"
+        className=" h-auto md:h-screen flex flex-col space-y-6  md:justify-center md:items-center"
         id="about"
       >
         <Hero />
         <Description />
       </div>
       <div
-        className=" h-screen flex flex-col space-y-6 justify-center items-center"
+        className=" h-auto md:h-screen flex flex-col space-y-6 justify-center "
         id="projects"
       >
         <Projects />
       </div>
       <div
-        className=" h-screen flex flex-col space-y-6 justify-center items-center"
+        className=" h-auto md:h-screen flex flex-col space-y-6 justify-center items-center"
         id="offer"
       ></div>
     </motion.div>
