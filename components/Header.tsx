@@ -29,7 +29,7 @@ const Header = () => {
       </Link>
 
       <Link
-        to="projects"
+        to="offer"
         smooth={true}
         onClick={() => setactive("offer")}
         className={` flex-1 p-4 transition-colors duration-300 text-sm text-center md:text-lg ${

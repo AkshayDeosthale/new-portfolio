@@ -8,7 +8,7 @@ const Description = () => {
       drag
       dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
       whileDrag={{ color: "yellow" }}
-      whileHover={{ x: [0, 30, 0, -30, 0] }}
+     whileHover={{ x: [0, 30, 0, -30, 0] }}
     >
       <p className="">About me :</p>
       <p className="text-center">
