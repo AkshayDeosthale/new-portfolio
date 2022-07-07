@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import Description from "../components/Description";
 import Header from "../components/Header";
 import Projects from "../components/Projects";
+import Offer from "../components/Offer";
 
 const Home: NextPage = () => {
   return (
@@ -31,10 +32,10 @@ const Home: NextPage = () => {
         <Projects />
       </div>
       <div
-        className=" h-auto md:h-screen flex flex-col space-y-6 justify-center items-center"
+        className=" h-auto md:h-screen flex flex-col w-full justify-center items-center"
         id="offer"
       >
-       offer
+       <Offer/>
       </div>
       <div
         className=" h-auto md:h-screen flex flex-col space-y-6 justify-center items-center"
