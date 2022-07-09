@@ -2,10 +2,14 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 
-const Header = () => {
-  const [active, setactive] = useState<string>("about");
+interface Props {
+  location: string;
+}
+
+const Header = ({ location }: Props) => {
+  const [active, setactive] = useState<string>(location);
   return (
-    <motion.div className="fixed z-10 h-16 backdrop-blur-lg w-full flex justify-evenly items-center cursor-default text-white font-bold">
+    <motion.div className=" cursor-pointer fixed z-10 h-16 backdrop-blur-lg w-full flex justify-evenly items-center cursor-default text-white font-bold">
       <Link
         to="about"
         smooth={true}
