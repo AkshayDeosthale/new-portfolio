@@ -9,7 +9,7 @@ interface Props {
 const Header = ({ location }: Props) => {
   const [active, setactive] = useState<string>(location);
   return (
-    <motion.div className=" cursor-pointer fixed z-10 h-16 backdrop-blur-lg w-full flex justify-evenly items-center cursor-default text-white font-bold">
+    <motion.div className=" cursor-pointer fixed z-10 h-16 backdrop-blur-lg w-full flex justify-evenly items-center  text-white font-bold">
       <Link
         to="about"
         smooth={true}
