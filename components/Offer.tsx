@@ -138,7 +138,7 @@ const Offer = () => {
           transition={{ duration: 2, repeat: Infinity }}
         >
           <Carousel
-            className=" flex justify-center items-center md:h-64 md:w-64 h-52 w-52 text-black"
+            className=" flex justify-center items-center md:h-64 md:w-64 h-52 w-52 text-black mt-10"
             autoPlay={true}
             emulateTouch={true}
             infiniteLoop={true}
@@ -169,7 +169,7 @@ const Offer = () => {
             <div className="text-center flex justify-center items-center flex-col group space-y-2 rounded-full">
               <TbBrandNextjs className="h-20 w-20" />
               <p className="font-bold text-xl ">NextJS</p>
-              <p className="text-lg font-semibold ">
+              <p className="text-sm font-semibold group-hover:text-blue-500 transition-all duration-200">
                 SEO friendly website with server side rendering and beautifully
                 developmd website
               </p>
